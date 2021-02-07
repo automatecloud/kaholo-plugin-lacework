@@ -1,0 +1,47 @@
+{
+  "name": "lacework",
+  "type": "executer",
+  "exposeRoute": false,
+  "execProgram": "node",
+  "main": "app.js",
+  "version": "1.0.0",
+  "description":"Kaholo wrapper for Lacework",
+  "settings":[
+    {
+      "name":"SECRET",
+      "viewName": "Secret",
+      "type":"vault"
+    },
+    {
+      "name": "HOST",
+      "viewName": "Host",
+      "type": "string"
+    },
+    {
+      "name": "KEY_ID",
+      "viewName": "key ID",
+      "type": "string"
+    }
+  ],
+  "methods": [
+    {
+      "name": "createToken",
+      "viewName": "Generate token",
+      "params": [
+        
+      ]
+    },
+    {
+      "name": "GetEventDetails",
+      "viewName": "Get event details",
+      "params": [
+        {
+          "name":"EVENT_ID",
+          "viewName":"Event ID",
+          "type":"string"
+        }
+      ]
+    }
+  ],
+  "imgUrl": "lacework.png"
+}
