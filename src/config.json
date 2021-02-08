@@ -4,7 +4,7 @@
   "exposeRoute": false,
   "execProgram": "node",
   "main": "app.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":"Kaholo wrapper for Lacework",
   "settings":[
     {
@@ -20,7 +20,7 @@
     {
       "name": "KEY_ID",
       "viewName": "key ID",
-      "type": "string"
+      "type": "vault"
     }
   ],
   "methods": [
@@ -28,7 +28,7 @@
       "name": "createToken",
       "viewName": "Generate token",
       "params": [
-        
+
       ]
     },
     {
