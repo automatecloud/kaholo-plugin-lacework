@@ -20,7 +20,7 @@
     {
       "name": "KEY_ID",
       "viewName": "key ID",
-      "type": "string"
+      "type": "vault"
     }
   ],
   "methods": [

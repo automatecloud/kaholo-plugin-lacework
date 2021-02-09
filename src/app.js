@@ -18,10 +18,10 @@ function createToken(action, settings) {
     const URL = `${settings.HOST}/api/v1/access/tokens`
     let mheaders = {
         "Content-Type": "application/json",
-        "X-LW-UAKS": settings.SECRET
+        "X-LW-UAKS": `${settings.SECRET}`
     }
     let mbody = {
-        "keyId": settings.KEY_ID,
+        "keyId": `${settings.KEY_ID}`,
         "expiryTime": 3600
     }
     const requestOptions = {
