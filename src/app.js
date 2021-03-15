@@ -20,7 +20,7 @@ async function GetEventDetails(action, settings) {
 ///// Helpers
 
 async function getToken(host, keyId, secret) {
-    const url = `${host}/api/v1/access/tokens`;
+    const url = `https://${host}.lacework.net/api/v1/access/tokens`;
     const fetchParams = {
         method: 'post',
         body: JSON.stringify({
