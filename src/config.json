@@ -4,7 +4,7 @@
   "exposeRoute": false,
   "execProgram": "node",
   "main": "app.js",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description":"Kaholo wrapper for Lacework",
   "imgUrl": "lacework.png",
   "settings":[
@@ -33,6 +33,52 @@
           "name":"EVENT_ID",
           "viewName":"Event ID",
           "type":"string"
+        }
+      ]
+    },
+    {
+      "name": "GetLatestAWSComplianceReportDetails",
+      "viewName": "GetLatestAWSComplianceReportDetails",
+      "params": [
+        {
+          "name":"AWS_ACCOUNT_ID",
+          "viewName":"AWS ACCOUNT ID",
+          "type":"string"
+        },
+        {
+          "name":"REPORT_TYPE",
+          "viewName":"Report Type",
+          "type": "options",
+          "options": [
+            {
+              "id": "AWS_CIS_S3",
+              "name": "AWS CIS Benchmark and S3 Report"
+            },
+            {
+              "id": "NIST_800-53_Rev4",
+              "name": "AWS NIST 800-53 Report"
+            },
+            {
+              "id": "NIST_800-171_Rev2",
+              "name": "AWS NIST 800-171 Report"
+            },
+            {
+              "id": "ISO_2700",
+              "name": "AWS ISO 27001:2013 Report"
+            },
+            {
+              "id": "HIPAA",
+              "name": "AWS HIPAA Report"
+            },
+            {
+              "id": "SOC",
+              "name": "AWS SOC 2 Report"
+            },
+            {
+              "id": "PCI",
+              "name": "AWS PCI DSS Report"
+            }
+          ]
         }
       ]
     }
