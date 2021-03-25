@@ -56,15 +56,15 @@
             },
             {
               "id": "NIST_800-53_Rev4",
-              "name": "AWS NIST 800-171 Report"
+              "name": "AWS NIST 800-53 Report"
             },
             {
               "id": "NIST_800-171_Rev2",
-              "name": "NIST_800-171_Rev2"
+              "name": "AWS NIST 800-171 Report"
             },
             {
               "id": "ISO_2700",
-              "name": "AWS NIST 800-53 Report"
+              "name": "AWS ISO 27001:2013 Report"
             },
             {
               "id": "HIPAA",
