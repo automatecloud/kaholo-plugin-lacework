@@ -75,6 +75,10 @@
               "name": "AWS SOC 2 Report"
             },
             {
+              "id": "AWS_SOC_Rev2",
+              "name": "AWS SOC 2 Report Revision 2"
+            },
+            {
               "id": "PCI",
               "name": "AWS PCI DSS Report"
             }
